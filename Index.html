@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Bliss - Budget-Friendly Travel Packages</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Travel Bliss</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#packages">Packages</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Image Slider at the top -->
+    <section id="slider">
+        <div class="slides-container">
+            <div class="slide fade">
+                <img src="images/Festivals-of-1.jpg" alt="Slide 1">
+            </div>
+            <div class="slide fade">
+                <img src="images/vidhey-pv-0a_7nTNd5kY-unsplash.jpg" alt="Slide 2">
+            </div>
+            <div class="slide fade">
+                <img src="images/lokesh-kumar-bQOBC1O--O8-unsplash.jpg" alt="Slide 3">
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </section>
+
+    <main>
+        <section id="home">
+            <h2>Welcome to Travel Bliss</h2>
+            <p>Discover the best travel packages tailored to your budget and preferences!</p>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At Travel Bliss, we specialize in creating personalized travel experiences that are both memorable and affordable. Our team of experts is dedicated to planning your perfect trip, whether it's a solo adventure, family vacation, or romantic getaway.</p>
+        </section>
+
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Personalized travel itineraries</li>
+                <li>Budget-friendly packages</li>
+                <li>Flight and accommodation bookings</li>
+                <li>Guided tours and excursions</li>
+            </ul>
+        </section>
+
+        <section id="packages">
+            <h2>Travel Packages</h2>
+            <div class="package">
+                <h3>chandrashila trek </h3>
+                <p>Enjoy a week-long stay at a beautiful destination. Includes flights, accommodation, and guided tours. Starting at ₹5000.</p>
+            </div>
+            <div class="package">
+                <h3>Mountain Adventure</h3>
+                <p>Experience the thrill of the mountains with our 5-day adventure package. Includes flights, accommodation, and guided hikes. Starting at ₹6000.</p>
+            </div>
+            <div class="package">
+                <h3>City Explorer</h3>
+                <p>Explore the vibrant culture of a bustling city with our 4-day city package. Includes flights, accommodation, and city tours. Starting at ₹11999.</p>
+            </div>
+            <div class="package">
+                <h3>Kedarkantha Trek</h3>
+                <p>Embark on a 5-day journey to the Kedarkantha summit. This trek includes mesmerizing views, camping, meals, professional guides, and all necessary permits. Perfect for adventure seekers and nature lovers. Starting at ₹18999.</p>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <blockquote>
+                <p>"Travel Bliss planned the perfect honeymoon for us! Everything was seamless and well-organized. Highly recommend!" - Sarah & John</p>
+            </blockquote>
+            <blockquote>
+                <p>"Amazing service and great value for money. We had a fantastic family vacation thanks to Travel Bliss." - The Smith Family</p>
+            </blockquote>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Travel Bliss</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
